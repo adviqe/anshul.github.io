@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adviqe Solutions's UPI Payment Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta property="og:image" content="upi-logo.png">
+    <meta name="robots" content="noindex" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+        a{
+            text-decoration: none;
+            color: var(--white);
+        }
+        a:visited{
+            text-decoration: none;
+            color: var(--white);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-dash">
+        <img src="upi-logo.png" alt="" class="avatar" />
+        <p class="text-center mt-20 text-shadow">You Are Paying</p>
+        <h1 class="text-center mt-10 text-shadow">Adviqe Solutions</h1>
+        <div class="coins text-center mt-20">
+          <img
+            src="adviqe-qr-code.png"
+            alt=""
+            width="50%"
+          />
+        </div>
+
+        <p class="text-center mt-10">Scan With Any UPI App</p>
+        <p class="text-center mt-10">or Click on <b>Pay Now</b> Button</p>
+      </div>
+      <div id="buttons">
+         <a href="upi://pay?pn=Adviqe%20Solutions&pa=adviqe@hdfcbank&cu=INR">
+             <button class="button btn-block mt-10" id="payBTN">Pay Now</button>
+         </a>
+      </div>
+      
+      <br/>
+        <p class="text-center mt-10">Powered by <a href="https://www.adviqe.com"><b>Adviqe</b></a></p>
+    </div>
+  </body>
+</html>

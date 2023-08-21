@@ -1,0 +1,109 @@
+:root {
+  --blue: #002147;
+  --white: #f4f4fb;
+  --turquoise: #00ced1;
+  --offwhite: #e6e6ec;
+  --ubuntu: "Ubuntu", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--blue);
+  color: var(--white);
+  font-family: var(--ubuntu);
+}
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 512px;
+  margin-top: 10px;
+}
+.main-dash {
+  min-width: 90%;
+  /* height: 176px; */
+  background: #f4f4fb;
+  border: 1px solid #00ced1;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  margin-top: 70px;
+  color: var(--blue);
+  padding: 10px;
+}
+.avatar {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #00ced1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 25px;
+  margin-top: -60px;
+  object-fit: cover;
+}
+.text-center {
+  text-align: center;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1 {
+  font-size: 30px;
+}
+.coins {
+  font-size: 45px;
+}
+#buttons {
+  margin-top: 20px;
+}
+.buttons-group {
+  width: 100%;
+  margin: auto;
+}
+.button {
+  background: var(--turquoise);
+  padding: 10px 20px;
+  font-size: 25px;
+  color: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.another-button {
+  background: var(--offwhite);
+  padding: 10px 20px;
+  font-size: 15px;
+  color: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  border: none;
+  cursor: pointer;
+}
+.another-button:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.inline-button {
+  display: inline-block;
+  width: 45%;
+}
+.btn-block {
+  width: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
